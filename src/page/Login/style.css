@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#bannerLogin {
+    background-image: url("./imgs/Leonardo_Diffusion_Create_a_unique_and_visually_descriptive_lo_2.jpg");
+    width: 42%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#formLogin{
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}

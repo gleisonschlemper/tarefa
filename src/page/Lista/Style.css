@@ -1,0 +1,59 @@
+/* NovaLista.css */
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+td:nth-last-child(1){
+    display: flex;
+    justify-content: end;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(12, 6, 56);
+  color: white
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+button {
+  padding: 4px 8px;
+  margin-right: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-verificar{
+    padding: 10px 20px; /* Ajustei o padding para um visual mais amigável */
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-verificar:hover {
+    background-color: #007bffdf;
+  }
+  

@@ -1,0 +1,42 @@
+/* Estilização do cabeçalho */
+header {
+  height: 60px; /* Altura adequada para a barra de cabeçalho */
+  width: 90%;
+  background-color: #585555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.8rem; /* Adicionei espaçamento uniforme nos lados */
+  color: white;
+  position: absolute;
+  bottom: 10%;
+}
+
+/* Estilização da barra de pesquisa */
+#criarLista {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 80%;
+  padding: 10px; /* Ajustei o padding para um visual mais amigável */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn-enviar{
+  padding: 10px 20px; /* Ajustei o padding para um visual mais amigável */
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #28a746c2;
+}

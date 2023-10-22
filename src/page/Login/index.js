@@ -4,6 +4,7 @@ import { cliente } from '../../supabase/Cliente';
 import { Auth } from '@supabase/auth-ui-react'
 import { ThemeSupa} from '@supabase/auth-ui-shared'
 import { useNavigate } from 'react-router-dom';
+import './'
 function Login() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
@@ -40,7 +41,12 @@ function Login() {
     <>
       <div id="bannerLogin">..</div>
       <form id='formLogin'>
-        <h1 id='tituloLogin'>Faça login online!</h1>
+        <h1 className='text-3xl font-bold'>Faça login online!</h1>
+        form
+
+
+
+        
           {/* <Auth
           supabaseClient={cliente}
           appearance={{ theme: ThemeSupa }}

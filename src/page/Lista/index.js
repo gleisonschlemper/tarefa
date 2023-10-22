@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../../App.css';
-import './Style.css';
+import '../../index.css';
+import './style.css';
 
 import Navegacao from '../../components/Navegacao';
 import Header from '../../components/Header';

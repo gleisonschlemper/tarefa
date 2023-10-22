@@ -46,8 +46,8 @@ function Navegacao() {
                 <span className="links_name">Tarefas</span>
             </Link>
             </li>
-            <li className="log_out" onClick={handleLogout}> 
-            <Link>
+            <li className="log_out"> 
+            <Link to="/">
                 <i className='bx bx-log-out'></i>
                 <span className="links_name">Log out</span>
             </Link>
